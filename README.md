@@ -2,17 +2,11 @@
 
 ## About
 
-This is a Minimalist implementation of shell using Wails with Xterm.js in Vanilla Javascript
+This is a basic minimalist shell written for Wails using Xterm.js.
 
-You can learn more about Wails here: https://wails.io/docs/introduction
+## How to use
 
-## Live Development
-
-To run in live development mode, run `wails dev` in the project directory. This will run a Vite development
-server that will provide very fast hot reload of your frontend changes. If you want to develop in a browser
-and have access to your Go methods, there is also a dev server that runs on http://localhost:34115. Connect
-to this in your browser, and you can call your Go code from devtools.
-
-## Building
-
-To build a redistributable, production mode package, use `wails build`.
+- Install Wails
+- Run wails build -clean
+- Go to the corresponding bin in build/ folder and run the project
+- To test run wails dev -logLevel Error
