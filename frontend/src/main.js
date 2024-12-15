@@ -1,5 +1,7 @@
 import './style.css';
 import './app.css';
+import { Terminal } from 'xterm';
+
 import {EventsEmit, EventsOn} from "../wailsjs/runtime/runtime"
 
 window.addEventListener("load", function() {
